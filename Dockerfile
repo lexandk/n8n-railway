@@ -7,7 +7,7 @@ RUN apk add --no-cache \
     poppler-utils \
     ghostscript \
     ffmpeg \
-    noto-fonts-emoji \
+    ttf-noto-emoji \
     build-base
 
 RUN pip3 install --no-cache-dir \
