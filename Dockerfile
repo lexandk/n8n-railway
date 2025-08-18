@@ -4,10 +4,6 @@ USER root
 RUN apk add --no-cache \
     python3 \
     py3-pip \
-    poppler-utils \
-    ghostscript \
-    ffmpeg \
-    ttf-noto-emoji \
     build-base
 
 RUN pip3 install --no-cache-dir \
